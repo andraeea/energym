@@ -20,6 +20,10 @@
             color: aliceblue;
         }
 
+        header {
+            width: 100%;
+        }
+
         .navbar {
             background-color: rgb(49, 49, 69);
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.456);
@@ -39,11 +43,6 @@
 
         .menu {
             height: 3rem;
-        }
-
-        .center {
-            display: flex;
-            align-items: center;
         }
 
         .logo {
@@ -66,18 +65,22 @@
             text-align: center;
         }
 
-        .row {
-            justify-content: space-between;
-        }
-
         .card {
             background-color: rgb(49, 49, 69);
             color: aliceblue;
         }
 
-        .text {
-            padding: 5%;
-            text-align: center;
+        footer {
+            background-color: rgb(49, 49, 69);
+        }
+
+        footer .logo {
+            height: 5rem;
+        }
+
+        .icon {
+            height: 2rem;
+            margin-right: 1rem;
         }
     </style>
 
@@ -98,7 +101,7 @@
                             alt="ilustrație simplă, cu contur galben, a unei haltere, element sugestiv pentru o sală de fitness"></a>
                     <a href="#Energym">Energym</a>
                 </div>
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <div class="collapse navbar-collapse">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link" href="#Desprenoi">Despre noi</a>
@@ -116,9 +119,8 @@
                 </div>
             </div>
         </nav>
-    </header>
 
-        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div id="carouselSaladeFitnesssiIoga" class="carousel slide carousel-fade">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="poze_tema3/gym.jpeg" class="d-block w-100" alt="...">
@@ -130,172 +132,173 @@
                     <img src="poze_tema3/fit.jpg" class="d-block w-100" alt="...">
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselSaladeFitnesssiIoga"
                 data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselSaladeFitnesssiIoga"
                 data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-   
-        <h2 id="Desprenoi">Despre noi</h2>
+    </header>
 
-        <div class="container text-center">
-            <p>
-                La Energym, ne dedicăm să transformăm fiecare antrenament într-o experiență plăcută și motivațională,
-                oferindu-ți suportul necesar pentru a-ți atinge obiectivele de fitness și bunăstare. Indiferent dacă
-                ești
-                începător sau un adevărat pasionat de fitness și yoga, vei găsi la noi un mediu prietenos, echipamente
-                moderne și o varietate de clase adaptate nevoilor tale.
-            </p>
-            <p>
-                Nu lăsa pe mâine ce poți începe astăzi. Vino să
-                descoperi atmosfera pozitivă și să devii parte din comunitatea noastră activă și susținătoare. Te
-                așteptăm
-                cu brațele deschise! Pentru orice întrebare sau informație suplimentară, nu ezita să ne contactezi
-            </p>
-        </div>
+    <h2 id="Desprenoi">Despre noi</h2>
 
-        <h2 id="Servicii">Servicii</h2>
+    <div class="container text-center">
+        <p>
+            La Energym, ne dedicăm să transformăm fiecare antrenament într-o experiență plăcută și motivațională,
+            oferindu-ți suportul necesar pentru a-ți atinge obiectivele de fitness și bunăstare. Indiferent dacă
+            ești
+            începător sau un adevărat pasionat de fitness și yoga, vei găsi la noi un mediu prietenos, echipamente
+            moderne și o varietate de clase adaptate nevoilor tale.
+        </p>
+        <p>
+            Nu lăsa pe mâine ce poți începe astăzi. Vino să
+            descoperi atmosfera pozitivă și să devii parte din comunitatea noastră activă și susținătoare. Te
+            așteptăm
+            cu brațele deschise! Pentru orice întrebare sau informație suplimentară, nu ezita să ne contactezi
+        </p>
+    </div>
 
-        <h3>Sala de fitness</h3>
+    <h2 id="Servicii">Servicii</h2>
 
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
-                <div class="card">
-                    <img src="poze_tema3/echipament-sala.jpg" class="card-img-top"
-                        alt="Mai multe kettlebell-uri negre aliniate, echipament specific pentru sală.">
-                    <div class="card-body">
-                        <h4 class="card-title">Echipamente moderne</h4>
-                        <p class="card-text">La <span class="bold">Energym</span>, punem la dispoziția membrilor noștri
-                            echipamente de ultimă
-                            generație. Acestea sunt proiectate
-                            pentru a
-                            oferi performanțe optime și siguranță maximă. Fie că este vorba de aparate de cardio
-                            avansate,
-                            benzi de
-                            alergare cu multiple funcții sau echipamente de forță și rezistență de calitate superioară,
-                            fiecare
-                            detaliu a fost ales cu grijă pentru a asigura eficiența și confortul în timpul
-                            antrenamentului.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <img src="poze_tema3/sportiv_puternic.jpg" class="card-img-top"
-                        alt="Bărbat antrenat și puternic care face exerciții cu gantere.">
-                    <div class="card-body">
-                        <h4 class="card-title">Antrenori personali</h4>
-                        <p class="card-text">La <span class="bold">Energym</span>, antrenorii noștri personali sunt
-                            inima și
-                            sufletul experienței tale
-                            de fitness. Fiecare
-                            antrenor aduce cu sine o vastă expertiză și o pasiune contagioasă pentru sănătate și
-                            fitness,
-                            fiind
-                            dedicat să te ajute să îți atingi obiectivele. Cu certificări recunoscute la nivel
-                            internațional
-                            și o
-                            abordare personalizată, antrenorii noștri îți oferă suport constant, motivație și sfaturi
-                            adaptate
-                            nevoilor tale individuale.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <img src="poze_tema3/sireturi.jpg" class="card-img-top"
-                        alt="Persoană care își încheie șireturile, stând jos">
-                    <div class="card-body">
-                        <h4 class="card-title">Spații de vestiare și dușuri</h4>
-                        <p class="card-text">La <span class="bold">Energym</span>, ne asigurăm că fiecare aspect al
-                            experienței tale este confortabil
-                            și convenabil, inclusiv
-                            spațiile noastre de dușuri. După un antrenament intens, te poți bucura de dușurile noastre
-                            moderne,
-                            curate și bine echipate, care oferă tot ce ai nevoie pentru a te revigora și relaxa. De
-                            asemenea,
-                            vestiarele noastre sunt amenajate cu dulapuri
-                            securizate, astfel încât să îți poți lăsa în siguranță lucrurile personale în timp ce te
-                            bucuri
-                            de
-                            facilitățile noastre.</p>
-                    </div>
+    <h3>Sala de fitness</h3>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card">
+                <img src="poze_tema3/echipament-sala.jpg" class="card-img-top"
+                    alt="Mai multe kettlebell-uri negre aliniate, echipament specific pentru sală.">
+                <div class="card-body">
+                    <h4 class="card-title">Echipamente moderne</h4>
+                    <p class="card-text">La <span class="bold">Energym</span>, punem la dispoziția membrilor noștri
+                        echipamente de ultimă
+                        generație. Acestea sunt proiectate
+                        pentru a
+                        oferi performanțe optime și siguranță maximă. Fie că este vorba de aparate de cardio
+                        avansate,
+                        benzi de
+                        alergare cu multiple funcții sau echipamente de forță și rezistență de calitate superioară,
+                        fiecare
+                        detaliu a fost ales cu grijă pentru a asigura eficiența și confortul în timpul
+                        antrenamentului.
+                    </p>
                 </div>
             </div>
         </div>
-
-        <h3>Sala de yoga</h3>
-
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
-                <div class="card">
-                    <img src="poze_tema3/covorase_yoga.jpg" class="card-img-top"
-                        alt="Sală de yoga pozată de jos în așa fel încât să se vadă clar picioarele și covorașele.">
-                    <div class="card-body">
-                        <h4 class="card-title">Accesorii de Yoga</h4>
-                        <p class="card-text">La <span class="bold">Energym</span>, accesoriile noastre de yoga sunt
-                            atent
-                            selecționate pentru a oferi
-                            confort și eficiență în
-                            timpul practicii tale. De la saltele de yoga premium, care oferă aderență excelentă și
-                            amortizare, până
-                            la blocuri de yoga din materiale ecologice, fiecare detaliu este gândit pentru a îmbunătăți
-                            posturile și
-                            a preveni accidentările. Astfel, accesoriile noastre contribuie la o experiență de yoga
-                            holistică și plăcută.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <img src="poze_tema3/meditatie.jpg" class="card-img-top"
-                        alt="Un grup de femei care meditează într-un spațiu special amenajat.">
-                    <div class="card-body">
-                        <h4 class="card-title">Meditație și Mindfulness</h4>
-                        <p class="card-text">La <span class="bold">Energym</span>, meditația și mindfulness sunt
-                            practici
-                            esențiale care te ajută să
-                            atingi o stare de echilibru
-                            mental și emoțional. În spațiile noastre liniștite și plăcute, poți participa la sesiuni
-                            ghidate
-                            de
-                            meditație care te vor ajuta să îți calmezi mintea, să reduci stresul și să îți îmbunătățești
-                            concentrarea. În plus, folosim tehnici de
-                            mindfulness care îți permit să te conectezi mai profund cu prezentul, cultivând o stare de
-                            conștientizare și acceptare.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <img src="poze_tema3/relaxare.jpg" class="card-img-top"
-                        alt="Un grup de oameni așezați în poziții de yoga, care par să se relaxeze.">
-                    <div class="card-body">
-                        <h4 class="card-title">Zonă de relaxare</h4>
-                        <p class="card-text">La <span class="bold">Energym</span>, am creat o zonă de relaxare și
-                            socializare special amenajată pentru
-                            a oferi membrilor noștri
-                            un mediu perfect de deconectare și interacțiune. Această zonă, decorată cu bun gust și
-                            echipată
-                            cu
-                            mobilier confortabil, este locul ideal pentru a te relaxa după antrenament. De asemenea,
-                            zona de
-                            socializare este gândită pentru a încuraja conexiunile
-                            între membrii comunității <span class="bold">Energym</span>.</p>
-                    </div>
+        <div class="col">
+            <div class="card">
+                <img src="poze_tema3/sportiv_puternic.jpg" class="card-img-top"
+                    alt="Bărbat antrenat și puternic care face exerciții cu gantere.">
+                <div class="card-body">
+                    <h4 class="card-title">Antrenori personali</h4>
+                    <p class="card-text">La <span class="bold">Energym</span>, antrenorii noștri personali sunt
+                        inima și
+                        sufletul experienței tale
+                        de fitness. Fiecare
+                        antrenor aduce cu sine o vastă expertiză și o pasiune contagioasă pentru sănătate și
+                        fitness,
+                        fiind
+                        dedicat să te ajute să îți atingi obiectivele. Cu certificări recunoscute la nivel
+                        internațional
+                        și o
+                        abordare personalizată, antrenorii noștri îți oferă suport constant, motivație și sfaturi
+                        adaptate
+                        nevoilor tale individuale.</p>
                 </div>
             </div>
         </div>
+        <div class="col">
+            <div class="card">
+                <img src="poze_tema3/sireturi.jpg" class="card-img-top"
+                    alt="Persoană care își încheie șireturile, stând jos">
+                <div class="card-body">
+                    <h4 class="card-title">Spații de vestiare și dușuri</h4>
+                    <p class="card-text">La <span class="bold">Energym</span>, ne asigurăm că fiecare aspect al
+                        experienței tale este confortabil
+                        și convenabil, inclusiv
+                        spațiile noastre de dușuri. După un antrenament intens, te poți bucura de dușurile noastre
+                        moderne,
+                        curate și bine echipate, care oferă tot ce ai nevoie pentru a te revigora și relaxa. De
+                        asemenea,
+                        vestiarele noastre sunt amenajate cu dulapuri
+                        securizate, astfel încât să îți poți lăsa în siguranță lucrurile personale în timp ce te
+                        bucuri
+                        de
+                        facilitățile noastre.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
-        <h3>Program zilnic</h3>
+    <h3>Sala de yoga</h3>
 
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card">
+                <img src="poze_tema3/covorase_yoga.jpg" class="card-img-top"
+                    alt="Sală de yoga pozată de jos în așa fel încât să se vadă clar picioarele și covorașele.">
+                <div class="card-body">
+                    <h4 class="card-title">Accesorii de Yoga</h4>
+                    <p class="card-text">La <span class="bold">Energym</span>, accesoriile noastre de yoga sunt
+                        atent
+                        selecționate pentru a oferi
+                        confort și eficiență în
+                        timpul practicii tale. De la saltele de yoga premium, care oferă aderență excelentă și
+                        amortizare, până
+                        la blocuri de yoga din materiale ecologice, fiecare detaliu este gândit pentru a îmbunătăți
+                        posturile și
+                        a preveni accidentările. Astfel, accesoriile noastre contribuie la o experiență de yoga
+                        holistică și plăcută.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="poze_tema3/meditatie.jpg" class="card-img-top"
+                    alt="Un grup de femei care meditează într-un spațiu special amenajat.">
+                <div class="card-body">
+                    <h4 class="card-title">Meditație și Mindfulness</h4>
+                    <p class="card-text">La <span class="bold">Energym</span>, meditația și mindfulness sunt
+                        practici
+                        esențiale care te ajută să
+                        atingi o stare de echilibru
+                        mental și emoțional. În spațiile noastre liniștite și plăcute, poți participa la sesiuni
+                        ghidate
+                        de
+                        meditație care te vor ajuta să îți calmezi mintea, să reduci stresul și să îți îmbunătățești
+                        concentrarea. În plus, folosim tehnici de
+                        mindfulness care îți permit să te conectezi mai profund cu prezentul, cultivând o stare de
+                        conștientizare și acceptare.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="poze_tema3/relaxare.jpg" class="card-img-top"
+                    alt="Un grup de oameni așezați în poziții de yoga, care par să se relaxeze.">
+                <div class="card-body">
+                    <h4 class="card-title">Zonă de relaxare</h4>
+                    <p class="card-text">La <span class="bold">Energym</span>, am creat o zonă de relaxare și
+                        socializare special amenajată pentru
+                        a oferi membrilor noștri
+                        un mediu perfect de deconectare și interacțiune. Această zonă, decorată cu bun gust și
+                        echipată
+                        cu
+                        mobilier confortabil, este locul ideal pentru a te relaxa după antrenament. De asemenea,
+                        zona de
+                        socializare este gândită pentru a încuraja conexiunile
+                        între membrii comunității <span class="bold">Energym</span>.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h3>Program zilnic</h3>
+    <div class="container-fluid">
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
                 <div class="card">
@@ -328,13 +331,16 @@
                 </div>
             </div>
         </div>
+    </div>
 
-        <h3>Abonamente</h3>
-
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="card text-center mb-3" style="width: 18rem";>
+    <h3>Abonamente</h3>
+    <div class="container-fluid">
+        <div class="row g-5">
+            <div class="card text-center" style="width: 17rem" ;>
                 <div class="card-body">
-                    <h4 class="card-title">Abonament premium<span class="badge text-bg-secondary">New</span></h4>
+                    <h4 class="card-title">Abonament premium
+                        <span class="badge text-bg-secondary">New</span>
+                    </h4>
                     <ul class="card-text">
                         <li>Preț: 249 RON/lună</li>
                         <li>Acces nelimitat la sală, plus participare la clase grup (yoga, pilates, antrenament
@@ -347,9 +353,11 @@
                 </div>
             </div>
 
-            <div class="card text-center mb-3" style="width: 18rem";>
+            <div class="card text-center" style="width: 17rem" ;>
                 <div class="card-body">
-                    <h4 class="card-title">Abonament pentru cupluri<span class="badge text-bg-secondary">New</span></h4>
+                    <h4 class="card-title">Abonament pentru cupluri
+                        <span class="badge text-bg-secondary">New</span>
+                    </h4>
                     <ul class="card-text">
                         <li>Preț: 299 RON/lună</li>
                         <li>Abonament comun pentru două persoane, la un preț redus față de două abonamente separate.
@@ -361,7 +369,7 @@
                 </div>
             </div>
 
-            <div class="card text-center mb-3" style="width: 18rem";>
+            <div class="card text-center" style="width: 17rem" ;>
                 <div class="card-body">
                     <h4 class="card-title">Abonament lunar standard</h4>
                     <ul class="card-text">
@@ -374,7 +382,7 @@
                 </div>
             </div>
 
-            <div class="card text-center mb-3" style="width: 18rem";>
+            <div class="card text-center" style="width: 17rem" ;>
                 <div class="card-body">
                     <h4 class="card-title">Abonament pentru 3 luni</h4>
                     <ul class="card-text">
@@ -387,66 +395,67 @@
                 </div>
             </div>
         </div>
+    </div>
 
-        <h2 id="Beneficii">Beneficii</h2>
+    <h2 id="Beneficii">Beneficii</h2>
 
-        <div class="row g-4">
-            
-                <div class="col col-lg-6 col-md-6 col-12">
-                <div class="card">
-                    <img src="poze_tema3/pietre_desen.jpg" class="card-img-top"
-                        alt="Desen realizat cu ajutorul unor pietre care par a fi oameni la sală.">
-                    <div class="card-body">
-                        <h3 class="card-title">Fitness</h3>
-                        <h4>Beneficii fizice</h4>
-                        <p>Fitnessul aduce beneficii fizice esențiale, îmbunătățind sănătatea cardiovasculară și
-                            crescând
-                            forța
-                            musculară. Exercițiile regulate contribuie la menținerea unei greutăți sănătoase, întăresc
-                            oasele și
-                            articulațiile, și reduc riscul de boli cronice.</p>
-                        <h4>Beneficii mentale</h4>
-                        <p>Fitnessul aduce beneficii mentale importante, reducând stresul și anxietatea prin eliberarea
-                            de
-                            endorfine. Îmbunătățește starea de spirit, crește încrederea în sine și contribuie la o mai
-                            bună
-                            concentrare și claritate mentală. De asemenea, exercițiile fizice regulate pot îmbunătăți
-                            calitatea
-                            somnului și reziliența mentală.</p>
-                    </div>
-                </div>
-                </div>
+    <div class="row g-4">
 
-                <div class="col col-lg-6 col-md-6 col-12">
-                <div class="card">
-                    <img src="poze_tema3/pietre_mesaj.jpg" class="card-img-top"
-                        alt="Mai multe pietre pe care sunt scrise mesaje motivaționale.">
-                    <div class="card-body">
-                        <h3 class="card-title">Yoga</h3>
-                        <h4>Beneficii fizice</h4>
-                        <p>Yoga îmbunătățește flexibilitatea, tonusul muscular și postura, reducând riscul de
-                            accidentări și
-                            durerile de spate. De asemenea, susține sănătatea cardiovasculară și respiratorie prin
-                            tehnici
-                            de
-                            respirație și exerciții.</p>
-                        <h4>Beneficii mentale</h4>
-                        <p>Yoga aduce beneficii mentale semnificative, reducând stresul și anxietatea prin tehnici de
-                            respirație și
-                            meditație. Aceasta îmbunătățește concentrarea, claritatea mentală și starea de spirit,
-                            promovând
-                            o stare
-                            de calm și echilibru interior, și poate să ajute la combaterea
-                            depresiei
-                            și să îmbunătățească calitatea somnului.</p>
-                    </div>
+        <div class="col col-lg-6 col-md-6 col-12">
+            <div class="card">
+                <img src="poze_tema3/pietre_desen.jpg" class="card-img-top"
+                    alt="Desen realizat cu ajutorul unor pietre care par a fi oameni la sală.">
+                <div class="card-body">
+                    <h3 class="card-title">Fitness</h3>
+                    <h4>Beneficii fizice</h4>
+                    <p>Fitnessul aduce beneficii fizice esențiale, îmbunătățind sănătatea cardiovasculară și
+                        crescând
+                        forța
+                        musculară. Exercițiile regulate contribuie la menținerea unei greutăți sănătoase, întăresc
+                        oasele și
+                        articulațiile, și reduc riscul de boli cronice.</p>
+                    <h4>Beneficii mentale</h4>
+                    <p>Fitnessul aduce beneficii mentale importante, reducând stresul și anxietatea prin eliberarea
+                        de
+                        endorfine. Îmbunătățește starea de spirit, crește încrederea în sine și contribuie la o mai
+                        bună
+                        concentrare și claritate mentală. De asemenea, exercițiile fizice regulate pot îmbunătăți
+                        calitatea
+                        somnului și reziliența mentală.</p>
                 </div>
-                </div>
-
+            </div>
         </div>
 
-        <h2 id="Contact">Contact</h2>
+        <div class="col col-lg-6 col-md-6 col-12">
+            <div class="card">
+                <img src="poze_tema3/pietre_mesaj.jpg" class="card-img-top"
+                    alt="Mai multe pietre pe care sunt scrise mesaje motivaționale.">
+                <div class="card-body">
+                    <h3 class="card-title">Yoga</h3>
+                    <h4>Beneficii fizice</h4>
+                    <p>Yoga îmbunătățește flexibilitatea, tonusul muscular și postura, reducând riscul de
+                        accidentări și
+                        durerile de spate. De asemenea, susține sănătatea cardiovasculară și respiratorie prin
+                        tehnici
+                        de
+                        respirație și exerciții.</p>
+                    <h4>Beneficii mentale</h4>
+                    <p>Yoga aduce beneficii mentale semnificative, reducând stresul și anxietatea prin tehnici de
+                        respirație și
+                        meditație. Aceasta îmbunătățește concentrarea, claritatea mentală și starea de spirit,
+                        promovând
+                        o stare
+                        de calm și echilibru interior, și poate să ajute la combaterea
+                        depresiei
+                        și să îmbunătățească calitatea somnului.</p>
+                </div>
+            </div>
+        </div>
 
+    </div>
+
+    <h2 id="Contact">Contact</h2>
+    <div class="container">
         <div class="container text-center">
             <p>
                 La Energym, ne dedicăm să transformăm fiecare antrenament într-o experiență plăcută și motivațională,
@@ -463,43 +472,94 @@
             </p>
         </div>
 
-        <h3>Contactează-ne/Urmărește-ne</h3>
-
         <div class="row row-cols-1 row-cols-md-2 g-4 text-center">
-        <div class="col">
-            <div class="card">
-                <p>Telefon/Whatsapp: <a href="tel: +40751535678">+40751535678</a></p>
+            <div class="col">
+                <div class="card">
+                    <p>Telefon/Whatsapp: <a href="tel: +40751535678">+40751535678</a></p>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <p>Instagram: <a
+                            href="https://www.instagram.com/energymhealth.hub?igsh=NW9zdzgzaml2dnR0&utm_source=qr"
+                            class="hover-link2" target="_blank">@energymhealth.hub</a>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <p>Facebook: <a href="https://www.facebook.com/energymhealth.hub" target="_blank">Energym Health
+                            Hub</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <p>E-mail: <a href="mailto:contact04@energymcenter.ro">contact04@energymcenter.ro</a>
+                    </p>
+                </div>
             </div>
         </div>
 
-        <div class="col">
-            <div class="card">
-                <p>Instagram: <a href="https://www.instagram.com/energymhealth.hub?igsh=NW9zdzgzaml2dnR0&utm_source=qr"
-                        class="hover-link2" target="_blank">@energymhealth.hub</a>
-            </div>
-        </div>
-
-        <div class="col">
-            <div class="card">
-                <p>Facebook: <a href="https://www.facebook.com/energymhealth.hub" target="_blank">Energym Health Hub</a>
-                </p>
-            </div>
-        </div>
-
-        <div class="col">
-            <div class="card">
-                <p>E-mail: <a href="mailto:contact04@energymcenter.ro">contact04@energymcenter.ro</a>
-                </p>
-            </div>
-        </div>
-        </div>
-
-        <h3>Locație</h3>
+        <p class="text-center">Locație:</p>
 
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21864.608080739716!2d23.55559661466298!3d46.76339819999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47490e812a655145%3A0xb4f43afb2eff96d0!2sMama%20Manu!5e0!3m2!1sro!2sro!4v1732752398261!5m2!1sro!2sro"
             width="100%" style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <footer class="py-5">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <p>Contactează-ne/Urmărește-ne</p>
+                    <div class="d-flex">
+                        <img class="icon" src="poze_tema3/telephone_icon.png">
+                        <p>Telefon/Whatsapp: <a href="tel: +40751535678">+40751535678</a></p>
+                    </div>
+
+                    <div class="d-flex">
+                        <img class="icon" src="poze_tema3/email_icon.png">
+                        <p>E-mail: <a href="mailto:contact04@energymcenter.ro">contact04@energymcenter.ro</a></p>
+                    </div>
+
+                    <div class="d-flex">
+                        <img class="icon" src="poze_tema3/facebook_icon.png">
+                        <p>Facebook: <a href="https://www.facebook.com/energymhealth.hub" target="_blank">Energym Health
+                                Hub</a></p>
+                    </div>
+
+                    <div class="d-flex">
+                        <img class="icon" src="poze_tema3/instagram_icon.png">
+                        <p>Instagram: <a
+                                href="https://www.instagram.com/energymhealth.hub?igsh=NW9zdzgzaml2dnR0&utm_source=qr"
+                                class="hover-link2" target="_blank">@energymhealth.hub</a></p>
+                    </div>
+                </div>
+
+                <div class="col text-center"><a href="#Energym"><img class="logo"
+                                src="poze_tema3/gym_logo.png"
+                                alt="ilustrație simplă, cu contur galben, a unei haltere, element sugestiv pentru o sală de fitness"></a>
+                </div>
+
+                <div class="col text-end">
+                    <p>Energym este locul ideal pentru a-ți atinge obiectivele de fitness și yoga într-un mediu
+                        prietenos și motivant.</p>
+                    <p>Nu ezita să ne contactezi pentru orice întrebare sau informație
+                        suplimentară.</p>
+                </div>
+
+            </div>
+        </div>
+        </div>
+
+        <div class="container text-center">
+            <p>©Copyright Energym 2022. Toate drepturile rezervate.</p>
+        </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
