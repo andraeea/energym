@@ -17,18 +17,29 @@
 
     <style>
         body {
-            position: relative;
-            background-image: url(poze_tema3/fundalenergym.jpg);
             background-position: center;
             background-repeat: no-repeat;
+            background-size: cover;
             background-attachment: fixed;
             color: rgb(255, 255, 255);
 
         }
 
+        @media (min-width: 1200px) {
+            body {
+                background-image: url(poze_tema3/bg_mare.jpg);
+            }
+        }
+
+        @media (max-width: 1199px) and (min-width: 767px) {
+            body {
+                background-image: url(poze_tema3/bg_mediu.jpg);
+            }
+        }
+
         @media (max-width: 768px) {
             body {
-                background-attachment: fixed;
+                background-image: url(poze_tema3/bg_mic.jpg);
             }
         }
 
